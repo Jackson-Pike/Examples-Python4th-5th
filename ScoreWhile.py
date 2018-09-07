@@ -1,6 +1,12 @@
 numOfTests = input("How many scores are you entering?: ")
 numOfTests = int(numOfTests)
-i = 10
-while i > numOfTests:
-    score[i] = input("Enter Score: ")
-    i = i-1
+sum1 = 0
+i=0
+while i != numOfTests:
+    score = input("Enter Score: ")
+    score = int(score)
+    sum1 += score
+    i = i+1
+average = sum1/numOfTests
+print("You averaged", average, "%")
+ 

@@ -1,7 +1,7 @@
 #Jackson Pike | September 2018 | Python 4th/5th
 
 #Calculate Area Of  Circle
-
+#[]
 #Define Function
 def getArea():
     #Prompt user for the circle's radius
@@ -15,5 +15,5 @@ def getArea():
     print("The area of your circle is: ", area)
 
 #Run getArea() function
-
+# <codecell> []
 getArea()
